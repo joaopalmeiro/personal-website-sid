@@ -1,0 +1,27 @@
+{
+    "name": "personal-website-sid",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "description": "Personal website/Online business card adapted from Siddharth Arun's imgs platform.",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaopalmeiro/personal-website-sid.git"
+    },
+    "author": "João Palmeiro",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/joaopalmeiro/personal-website-sid/issues"
+    },
+    "homepage": "https://github.com/joaopalmeiro/personal-website-sid#readme",
+    "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.49",
+        "svelte": "^3.48.0",
+        "vite": "^2.9.12"
+    }
+}
