@@ -28,6 +28,6 @@
         "vite": "^2.9.12"
     },
     "dependencies": {
-        "svelte-social-media-icons": "^0.0.2"
+        "svelte-social-media-icons": "^0.0.3"
     }
 }

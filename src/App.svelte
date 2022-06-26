@@ -1,5 +1,5 @@
 <script>
-    import { Behance, Dev } from 'svelte-social-media-icons';
+    import { Behance, Dribbble } from 'svelte-social-media-icons';
     // https://vitejs.dev/guide/assets.html#importing-asset-as-url
     // https://github.com/vitejs/vite/blob/v3.0.0-beta.2/packages/create-vite/template-svelte/src/App.svelte
     import SocialButton from './lib/SocialButton.svelte';
@@ -17,6 +17,7 @@
             <div class="flex flex-row gap-2">
                 <p class="text-sm font-semibold leading-none">João Palmeiro</p>
                 <p class="text-sm italic leading-none secondary">joaopalmeiro</p>
+                <!-- <p class="text-sm italic leading-none secondary">joaopalmeiro/joaompalmeiro</p> -->
             </div>
             <p class="description">Data Visualization Engineer @ Feedzai</p>
         </div>
@@ -24,8 +25,8 @@
             <SocialButton url="https://www.behance.net/joaopalmeiro"
                 ><Behance class="w-4 h-4" />Behance</SocialButton
             >
-            <SocialButton url="https://dev.to/joaompalmeiro"
-                ><Dev class="w-4 h-4" />DEV</SocialButton
+            <SocialButton url="https://dribbble.com/joaopalmeiro"
+                ><Dribbble class="w-4 h-4" />Dribbble</SocialButton
             >
         </div>
     </main>
