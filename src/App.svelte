@@ -1,10 +1,9 @@
 <script>
     import { Behance, Dev } from 'svelte-social-media-icons';
-
     // https://vitejs.dev/guide/assets.html#importing-asset-as-url
     // https://github.com/vitejs/vite/blob/v3.0.0-beta.2/packages/create-vite/template-svelte/src/App.svelte
-    import pictureUrl from '/picture.jpg';
     import SocialButton from './lib/SocialButton.svelte';
+    import pictureUrl from '/picture.jpg';
 </script>
 
 <!-- Source: https://imgs.so/sid -->
