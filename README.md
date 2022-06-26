@@ -1,6 +1,6 @@
 # personal-website-sid
 
-Personal website/Online business card adapted from [Siddharth Arun](https://sdrn.co/)'s [imgs](https://imgs.so/) platform.
+Personal website/Online business card adapted from [Siddharth Arun](https://sdrn.co/)'s _[imgs](https://imgs.so/)_ platform.
 
 ## Notes
 
