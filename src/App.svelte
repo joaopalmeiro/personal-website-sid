@@ -1,7 +1,44 @@
 <script>
+    import { Behance, Dev } from 'svelte-social-media-icons';
+
+    // https://vitejs.dev/guide/assets.html#importing-asset-as-url
+    // https://github.com/vitejs/vite/blob/v3.0.0-beta.2/packages/create-vite/template-svelte/src/App.svelte
+    import pictureUrl from '/picture.jpg';
+    import SocialButton from './lib/SocialButton.svelte';
 </script>
 
-<main>Hello, World!</main>
+<!-- Source: https://imgs.so/sid -->
+<main class="flex flex-col justify-center max-w-lg min-h-screen gap-5 px-8 mx-auto">
+    <!-- https://tailwindcss.com/docs/object-fit#resizing-to-cover-a-container -->
+    <!-- https://stackoverflow.com/a/49305511 -->
+    <!-- https://tailwindcss.com/docs/object-position -->
+    <img src={pictureUrl} alt="" class="object-cover object-right w-16 h-16 rounded-full" />
+    <div class="flex flex-col gap-2">
+        <div class="flex flex-row gap-2">
+            <p class="text-sm font-semibold leading-none">João Palmeiro</p>
+            <p class="text-sm italic leading-none alias">joaopalmeiro</p>
+        </div>
+        <p class="description">Data Visualization Engineer @ Feedzai</p>
+    </div>
+    <div class="flex flex-row flex-wrap gap-2">
+        <SocialButton url="https://www.behance.net/joaopalmeiro"
+            ><Behance class="w-4 h-4" />Behance</SocialButton
+        >
+        <SocialButton url="https://dev.to/joaompalmeiro"><Dev class="w-4 h-4" />DEV</SocialButton>
+    </div>
+</main>
 
 <style>
+    main {
+        color: #151515;
+    }
+
+    .description {
+        font-size: 26px;
+        line-height: 140%;
+    }
+
+    .alias {
+        color: #959595;
+    }
 </style>

@@ -1,8 +1,13 @@
 /* https://joyofcode.xyz/using-fonts-on-the-web */
 /* `swap`: "If the font hasn't loaded yet, swap it for another." */
 /* https://fonts.google.com/specimen/Inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+/* https://google-webfonts-helper.herokuapp.com/fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap'); */
 
-:root {
+/* :root {
     font-family: 'Inter', sans-serif;
-}
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

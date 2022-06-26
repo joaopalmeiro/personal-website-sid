@@ -1,6 +1,6 @@
 # personal-website-sid
 
-Personal website/Online business card adapted from Siddharth Arun's imgs platform.
+Personal website/Online business card adapted from [Siddharth Arun](https://sdrn.co/)'s [imgs](https://imgs.so/) platform.
 
 ## References
 
@@ -10,3 +10,5 @@ Personal website/Online business card adapted from Siddharth Arun's imgs platfor
 
 - [template-svelte](https://github.com/vitejs/vite/tree/v3.0.0-beta.2/packages/create-vite/template-svelte).
 - `pnpm add -D svelte vite @sveltejs/vite-plugin-svelte`.
+- `pnpm install -D tailwindcss postcss autoprefixer` + `pnpm tailwindcss init -p`.
+- `pnpm add svelte-social-media-icons`.
