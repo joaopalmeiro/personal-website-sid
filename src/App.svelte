@@ -8,7 +8,7 @@
 </script>
 
 <!-- Source: https://imgs.so/sid -->
-<main class="flex flex-col justify-center max-w-lg min-h-screen gap-5 px-8 mx-auto">
+<main class="flex flex-col justify-center max-w-xl min-h-screen gap-5 mx-auto px-7">
     <!-- https://tailwindcss.com/docs/object-fit#resizing-to-cover-a-container -->
     <!-- https://stackoverflow.com/a/49305511 -->
     <!-- https://tailwindcss.com/docs/object-position -->
